@@ -281,10 +281,14 @@ s.deselectByIndex(index);
 
 		}
 		return value;
-		}}
-	
+		}
+
+	public static void quitchrome() {
+		driver.quit();
+
+	}
 
 
-
+}
 
 
